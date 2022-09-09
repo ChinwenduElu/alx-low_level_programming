@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - prints all possible combinations of single-digit numbers
+*main - print 0-9 separated with commas, using putchar
 *Return: returns 0 on success
 */
 
@@ -12,7 +12,7 @@ int main(void)
 	while (n <= '9')
 	{
 		putchar(n);
-		if (n != 9);
+		if (n != '9')
 		{
 			putchar(',');
 			putchar(' ');
@@ -21,6 +21,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 }
