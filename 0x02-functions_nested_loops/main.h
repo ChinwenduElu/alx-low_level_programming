@@ -1,6 +1,9 @@
 /**
-*main- _putchar prints out character
-*Return: On success 0.
+*_putchar - writes the character c to stdout
+*@c: The character to print
+*
+*Return: On success 1.
+*On error, -1 is returned, and error is set appropriately
 */
 
-int _putchar(int character);
+int _putchar(char c);
