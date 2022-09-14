@@ -51,6 +51,6 @@ int print_sign(int n);
 *Return: an absolute value
 */
 
-int _abs(int);
+int _abs(int n);
 
 #endif
