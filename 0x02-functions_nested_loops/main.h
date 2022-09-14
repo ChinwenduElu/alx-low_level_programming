@@ -46,4 +46,11 @@ int _isalpha(int c);
 
 int print_sign(int n);
 
+/**
+*_bs - checks for alphabetic character
+*Return: an absolute value
+*/
+
+int _abs(int);
+
 #endif
