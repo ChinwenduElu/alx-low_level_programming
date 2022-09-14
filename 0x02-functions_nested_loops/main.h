@@ -53,4 +53,34 @@ int print_sign(int n);
 
 int _abs(int n);
 
+/**
+*print_last_digit- prints last digit of an integer
+*@n: integer
+*Return: last digit
+*/
+
+int print_last_digit(int n);
+
+/**
+*jack_bauer - print every minute of a day
+*Description: print 00:00 tp 23:59
+*/
+
+void jack_bauer(void);
+
+/**
+*times_table - print 9 times table
+*/
+
+void times_table(void);
+
+/**
+*add - adds two numbers
+*@a: integer 1
+*@b: integer 2
+*Return: result
+*/
+
+int add(int a, int b);
+
 #endif
