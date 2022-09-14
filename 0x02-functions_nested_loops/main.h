@@ -37,4 +37,13 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+
+/**
+*print_sign - checks for alphabetic character
+*@n: chracter to check
+*Return: 1 if >0, 0 if =0 and -1 if <0
+*/
+
+int print_sign(int n);
+
 #endif
