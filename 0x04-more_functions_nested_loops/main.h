@@ -51,4 +51,18 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
+
+#include "main.h"
+
+
+
+/**
+*more_numbers- prints 10 times numbers 0-14
+*/
+
+
+
+void more_numbers(void);
+
+
 #endif
