@@ -65,4 +65,11 @@ void more_numbers(void);
 
 void print_line(int n);
 
+/**
+* print_diagonal - prints diagnonal line
+* @n: number of chracter to draw
+*/
+
+void print_diagonal(int n);
+
 #endif
