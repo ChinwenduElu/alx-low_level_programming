@@ -12,5 +12,6 @@ void print_line(int n)
 	for (num = n; num > '0'; num--)
 		_putchar('_');
 
+	if (n <= '0')
 	_putchar('\n');
 }
