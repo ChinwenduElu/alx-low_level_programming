@@ -6,7 +6,6 @@
 */
 
 void print_diagonal(int n)
-
 {
 	int draw;
 	int space;
