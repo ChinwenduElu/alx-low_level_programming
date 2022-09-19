@@ -8,10 +8,7 @@
 * Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately.
 */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char c);
 
 /**
 *reset_to_98 - takes a pointer to an int as parameter and updates it to 98
