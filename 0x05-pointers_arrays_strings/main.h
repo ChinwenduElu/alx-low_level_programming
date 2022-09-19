@@ -25,4 +25,35 @@ void reset_to_98(int *n);
 
 void swap_int(int *a, int *b);
 
+/**
+* _strlen- prints string length
+*@s: string
+*Return: length
+*/
+
+int _strlen(char *s);
+
+
+/**
+*_puts - prints string followed by new line ti stdout
+*@str: string
+*/
+
+void _puts(char *str);
+
+
+/**
+*print_rev - prints a string, in reverse, followed by a new line
+*@s: string
+*/
+
+void print_rev(char *s);
+
+/**
+*print_rev - reverses a string
+*@s: string
+*/
+
+void rev_string(char *s);
+
 #endif
