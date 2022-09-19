@@ -50,10 +50,17 @@ void _puts(char *str);
 void print_rev(char *s);
 
 /**
-*print_rev - reverses a string
+*rev_string- reverses a string
 *@s: string
 */
 
 void rev_string(char *s);
+
+/**
+*puts2 -  prints every other character of a string, followed by a new line
+*@str: string
+*/
+
+void puts2(char *str);
 
 #endif
