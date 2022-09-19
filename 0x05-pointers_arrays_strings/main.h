@@ -63,4 +63,32 @@ void rev_string(char *s);
 
 void puts2(char *str);
 
+
+/**
+*puts_half -  prints half of a string, followed by a new line.
+*@str: string
+*/
+
+void puts_half(char *str);
+
+/**
+* print_array - prints n elements of an array of integers
+* @a: array
+* @n: number of elements
+*/
+
+void print_array(int *a, int n);
+
+/**
+* _strcpy - copies the string pointed to by src,
+* to the buffer pointed to by dest
+* @dest: copy source to this buffer
+* @src: source to copy
+* Return: copy of original source
+*/
+
+
+
+char *_strcpy(char *dest, char *src);
+
 #endif
