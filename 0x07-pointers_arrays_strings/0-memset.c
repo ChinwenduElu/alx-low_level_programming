@@ -10,7 +10,7 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int x = n; /* only accept positive sizes */
+	int x = n;
 
 	if (x > 0)
 	{
