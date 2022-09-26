@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * _memset - function fills the first n bytes of the memory area
@@ -10,9 +10,14 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int x;
+	int x = n; /* only accept positive sizes */
 
-	for (x = 0; x < n; x++)
-		*(s + x) =  b;
+	if (x > 0)
+	{
+		int i;
+
+		for (i = 0; i < x; i++)
+			s[i] = b;
+	}
 	return (s);
 }
