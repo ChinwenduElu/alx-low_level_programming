@@ -11,7 +11,8 @@ int sq_root(int n, int num)
 {
 	if (num * num == n)
 		return (num);
-	else
+
+	if (num * num > n)
 		return (-1);
 
 	return (sq_root(n, num + 1));
