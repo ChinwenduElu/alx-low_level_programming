@@ -16,19 +16,22 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
 	while (*(s1 + i))
 		x++, i++;
+
 	while (*(s2 + j))
-		y2++, j++;
-	y++;
+		y++, j++;
+		y++;
 
 	new_string = malloc(sizeof(char) * (x + y));
 
 	if (new_string == NULL)
 		return (NULL);
+
 	i = 0, j = 0;
 
 	while (i < x)
@@ -42,5 +45,6 @@ char *str_concat(char *s1, char *s2)
 		*(new_string + i) = *(s2 + j);
 			i++, j++;
 	}
+
 	return (new_string);
 }
