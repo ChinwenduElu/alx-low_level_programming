@@ -4,7 +4,7 @@
 /**
 * array_range - creates an array of integers,
 * ordered from min to max
-* @min: maximum number
+* @max: maximum number
 * @min: minimum number
 * Return: pointer to the created array else,
 * NULL, if min > max or malloc fails
