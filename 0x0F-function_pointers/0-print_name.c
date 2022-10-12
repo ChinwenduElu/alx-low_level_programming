@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-* print_name - prints a name
-* @name: name
-* @f: pointer to function print_name
+*print_name - prints a name
+*@name: name
+*@f: pointer to function print_name
 *
 */
 
